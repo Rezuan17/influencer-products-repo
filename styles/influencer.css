@@ -1,13 +1,67 @@
 /* nav styles */
-nav ul li{
-    list-style: none;
 
+.products{
+    color: #3A3A3A;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
-a{
+.nav-links{
+    display: flex;
+   
+}
+.nav-item{
+    list-style: none;
+   margin-right: 30px;
+}
+.nav-link{
     text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 500px;
+    font-size: 1rem;
 }
 .influenc-header{
     display: flex;
-    display: grid;
+    justify-content: space-between;
 }
+
+/* journey-influencer */
+.journey-container{
+    display: flex;
+    gap: 130px;
+}
+
+.journey-content{
+    width: 580px;
+    height: 270px;
+    margin-left: 120px;
+}
+.journey-head{
+    font-weight: bold;
+    font-size: 3.25rem;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+.paragraph{
+    color: #3A3A3A;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+.journey-image{
+    width: 475px;
+    height: 475px;
+    background-image: url(/images/Circle\ design\ \(4\).svg);
+    margin-right: 130px;
+}
+.journey-company{
+    width: 1110px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #AAAAAA;
+    margin-left: 70px;
+    /* margin-right: 130px; */
+    margin-top: 100px;
+}
+
+
